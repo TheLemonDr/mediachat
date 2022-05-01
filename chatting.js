@@ -28,11 +28,7 @@ function leavechat(chat)
 {
 	var xhr = new XMLHttpRequest();
 
-<<<<<<< HEAD
 	xhr.open('GET', 'getinfo.php?type=leavechat&chat=' + chat);
-=======
-	xhr.open('GET', 'https://mediaology.com/mediachat/getinfo.php?type=leavechat&chat=' + chat);
->>>>>>> 5ad46672324f984d8d2b49c7d0a2610982f605e7
 	xhr.onreadystatechange = handler;
 	xhr.send();
 
@@ -51,11 +47,7 @@ function requestBoards()
 	
 	var xhr = new XMLHttpRequest();
 
-<<<<<<< HEAD
 	xhr.open('GET', 'getinfo.php?type=getchats');
-=======
-	xhr.open('GET', 'https://mediaology.com/mediachat/getinfo.php?type=getchats');
->>>>>>> 5ad46672324f984d8d2b49c7d0a2610982f605e7
 	xhr.onreadystatechange = handler;
 	xhr.send();
 
@@ -86,11 +78,7 @@ function requestText()
 {
 	var xhr = new XMLHttpRequest();
 
-<<<<<<< HEAD
 	xhr.open('GET', 'getinfo.php?type=getmessages&chat='+document.getElementById("boardselect").value+'&amount=50');
-=======
-	xhr.open('GET', 'https://mediaology.com/mediachat/getinfo.php?type=getmessages&chat='+document.getElementById("boardselect").value+'&amount=50');
->>>>>>> 5ad46672324f984d8d2b49c7d0a2610982f605e7
 	xhr.onreadystatechange = handler;
 	xhr.send();
 
@@ -114,11 +102,7 @@ function requestNew()
 {
 	var xhr = new XMLHttpRequest();
 
-<<<<<<< HEAD
 	xhr.open('GET', 'getinfo.php?type=getnew');
-=======
-	xhr.open('GET', 'https://mediaology.com/mediachat/getinfo.php?type=getnew');
->>>>>>> 5ad46672324f984d8d2b49c7d0a2610982f605e7
 	xhr.onreadystatechange = handler;
 	xhr.send();
 
