@@ -9,3 +9,13 @@ git branch -M main
 ```
 git push -u origin main
 ```
+# links
+```
+https://mediaology.com/mediachat/terminal.php
+```
+```
+https://mediachat.mediaology.com/terminal.php
+```
+```
+https://spacyy.com/terminal.php
+```
