@@ -1732,3 +1732,45 @@ Stack trace:
 [01-May-2022 11:29:23 America/Boise] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home1/blufishm/public_html/mediachat/getinfo.php on line 116
 [01-May-2022 11:29:23 America/Boise] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home1/blufishm/public_html/mediachat/getinfo.php on line 116
 [01-May-2022 11:29:23 America/Boise] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home1/blufishm/public_html/mediachat/getinfo.php on line 116
+[01-May-2022 14:44:43 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 55
+[01-May-2022 14:44:47 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 55
+[01-May-2022 14:44:48 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 55
+[01-May-2022 14:44:57 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 55
+[01-May-2022 14:45:04 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 55
+[01-May-2022 14:45:20 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php:127
+Stack trace:
+#0 /home1/blufishm/public_html/mediaology/mediachat/getinfo.php(127): mysqli_fetch_array(true)
+#1 {main}
+  thrown in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php on line 127
+[01-May-2022 14:45:23 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 55
+[01-May-2022 14:45:46 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 55
+[01-May-2022 14:45:49 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 55
+[01-May-2022 14:45:50 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 55
+[01-May-2022 14:46:09 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 55
+[01-May-2022 14:46:12 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 55
+[01-May-2022 14:46:19 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php:127
+Stack trace:
+#0 /home1/blufishm/public_html/mediaology/mediachat/getinfo.php(127): mysqli_fetch_array(true)
+#1 {main}
+  thrown in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php on line 127
+[01-May-2022 14:46:36 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 55
+[01-May-2022 14:46:56 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php:127
+Stack trace:
+#0 /home1/blufishm/public_html/mediaology/mediachat/getinfo.php(127): mysqli_fetch_array(true)
+#1 {main}
+  thrown in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php on line 127
+[01-May-2022 14:46:57 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php:127
+Stack trace:
+#0 /home1/blufishm/public_html/mediaology/mediachat/getinfo.php(127): mysqli_fetch_array(true)
+#1 {main}
+  thrown in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php on line 127
+[01-May-2022 14:46:57 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php:127
+Stack trace:
+#0 /home1/blufishm/public_html/mediaology/mediachat/getinfo.php(127): mysqli_fetch_array(true)
+#1 {main}
+  thrown in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php on line 127
+[01-May-2022 14:46:58 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php:127
+Stack trace:
+#0 /home1/blufishm/public_html/mediaology/mediachat/getinfo.php(127): mysqli_fetch_array(true)
+#1 {main}
+  thrown in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php on line 127

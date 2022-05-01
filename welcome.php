@@ -26,6 +26,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <a href="logout.php" class="btn btn-danger ml-3">Sign Out</a>
     <a href="https://www.patreon.com/bePatron?u=73389187" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 	<button id="chatop" onclick="document.getElementById('popup').style.display = 'block'">Chat Options</button>
+	<button id="infobut" onclick="document.getElementById('infopanel').style.display = 'block'">Info</button>
 	<div id="chat">
 	<iframe name="messages" id="messages" src='chat.php' style="display:none;"></iframe>
 	<div>
@@ -51,6 +52,27 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 			<input id="msg" name="chatname" autocomplete="off" placeholder="Name of group chat">
             <input type="submit" id="submit" name="submit" value=">">
 		</form>
+		</div>
+	</div>
+	<div id="infopanel" style="position: relative; width: 0; height: 0; display: none;">
+		<div id="links">
+		    <button id="close" onclick="document.getElementById('infopanel').style.display = 'none'">x</button>
+		    <div id="sections">
+		        <div id="title">
+		             Credits
+		        </div>
+		        Design and Implentation: FoxMoss<br>
+		        Game Of Life Loading Screen: Ivan<br>
+		        Login System: tutorialrepublic.com
+		    </div>
+		    <div id="sections">
+		        <div id="title">
+		             Links
+		        </div>
+		        <a href="https://mediaology.com/mediachat">mediaology.com/mediachat</a><br>
+		        <a href="https://mediachat.mediaology.com/">mediachat.mediaology.com</a><br>
+		        <a href="https://spacyy.com/">spacyy.com</a><br>
+		    </div>
 		</div>
 	</div>
 	<script src="chatting.js"></script>
