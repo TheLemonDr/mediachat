@@ -113,7 +113,11 @@ xhr.send();
  				 echo "<div id='line'>no messages yet<div>";
 			}
 echo
+<<<<<<< HEAD
 "<style>@font-face{font-family:apple;src:url('GnuUnifontFull-Pm9P.ttf')}#line:hover{background-color:#211e20}#line{font-size:120%;font-family:apple;color:#a0a08b;overflow-wrap:break-word}#name:hover{text-decoration:underline;cursor:pointer}#name{all: unset;color:#e9efec;text-decoration:none;}body{background-color:#555568}</style>";
+=======
+"<style>@font-face{font-family:apple;src:url('https://mediaology.com/mediachat/GnuUnifontFull-Pm9P.ttf')}#line:hover{background-color:#211e20}#line{font-size:120%;font-family:apple;color:#a0a08b;overflow-wrap:break-word}#name:hover{text-decoration:underline;cursor:pointer}#name{all: unset;color:#e9efec;text-decoration:none;}body{background-color:#555568}</style>";
+>>>>>>> 5ad46672324f984d8d2b49c7d0a2610982f605e7
 		}
 	}
 	if($_GET['type']=="leavechat")

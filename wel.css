@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @font-face{font-family:apple;src:url('GnuUnifontFull-Pm9P.ttf')}
+=======
+@font-face{font-family:apple;src:url('https://mediaology.com/mediachat/GnuUnifontFull-Pm9P.ttf')}
+>>>>>>> 5ad46672324f984d8d2b49c7d0a2610982f605e7
 #dummy {
 	border-style: solid;
 	border-width:10px;
