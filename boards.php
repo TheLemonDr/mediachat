@@ -38,7 +38,6 @@ if (isset($_POST['submit'])){
 				$param_users = "-".$_SESSION["id"]."-";
 				
     	        if(mysqli_stmt_execute($stmt)){
-					
         	        mysqli_stmt_store_result($stmt);
             	}
             	mysqli_stmt_close($stmt);
@@ -49,6 +48,7 @@ if (isset($_POST['submit'])){
 					SET users = CONCAT(users, '-".$_SESSION["id"]."-')
 					WHERE name = '".$_REQUEST['chatname']."'";
 			$result = mysqli_query($link, $sql);
+			echo $sql;
 		}
 		
 	}
