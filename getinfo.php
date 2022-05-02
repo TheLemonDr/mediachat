@@ -137,7 +137,7 @@ echo
 							SET users = REPLACE(users, '-".$_SESSION["id"]."-', '')
 							WHERE name = '".$_GET['chat']."'";
 					$result = mysqli_query($link, $sql);
-					echo "perfect";
+					echo $sql;
 				}
 			}
 		}
