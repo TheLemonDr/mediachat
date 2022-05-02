@@ -103,7 +103,7 @@ if(isset($_GET['type']))
   				while($row = $result->fetch_assoc()) {
 $script="
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://mediaology.com/mediachat/getinfo.php?type=createpm&user=". $row["user"]."');
+xhr.open('GET', 'getinfo.php?type=createpm&user=". $row["user"]."');
 xhr.send();
 ";
     				echo "<div id='line'><button id='name' onclick=\"" . $script . "\">" . $row["user"] . "</button>: <span id='message'>" . $row["message"] . "</span></div>";
