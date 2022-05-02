@@ -4,7 +4,20 @@ session_start();
 require_once "config.php";
 
 if (isset($_POST['submit'])){
-	if($_REQUEST['msg']!="")
+	$hasbadword= false; 
+	if($_REQUEST['board'] == 'public'){
+		$banned = "SELECT word FROM banned";
+		$result = $link->query($banned);
+		if ($result->num_rows > 0) {
+ 			while($row = $result->fetch_assoc()) {
+				if(str_contains(strtolower($_REQUEST['msg']), $row['word']))
+				{
+					$hasbadword = true;
+				}
+			}
+		}
+	}
+	if($_REQUEST['msg']!=""&&!$hasbadword)
 	{
 	$sql = "INSERT INTO messages (user, date, message, board) VALUES (?, ?, ?, ?)";
 	if($stmt = mysqli_prepare($link, $sql)){
