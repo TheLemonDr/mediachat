@@ -44,6 +44,7 @@ if (isset($_POST['submit'])){
 			}
 		}else if($id["type"]!=="private"&&strpos($_REQUEST['chatname'], ";") !== false)
 		{
+			echo "hi";
 			$sql = "UPDATE chats
 					SET users = CONCAT(users, '-".$_SESSION["id"]."-')
 					WHERE name = '".$_REQUEST['chatname']."'";
