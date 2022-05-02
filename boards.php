@@ -42,7 +42,7 @@ if (isset($_POST['submit'])){
             	}
             	mysqli_stmt_close($stmt);
 			}
-		}else if($id["type"]!=="private"&&strpos($_REQUEST['chatname'], ";") !== false)
+		}else if($id["type"]!=="private"&&strpos($_REQUEST['chatname'], ";") == false)
 		{
 			echo "hi";
 			$sql = "UPDATE chats
