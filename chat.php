@@ -17,6 +17,7 @@ if (isset($_POST['submit'])){
 			}
 		}
 	}
+	
 	if($_REQUEST['msg']!=""&&!$hasbadword)
 	{
 	$sql = "INSERT INTO messages (user, date, message, board) VALUES (?, ?, ?, ?)";

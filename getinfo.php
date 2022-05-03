@@ -106,7 +106,8 @@ var xhr = new XMLHttpRequest();
 xhr.open('GET', 'getinfo.php?type=createpm&user=". $row["user"]."');
 xhr.send();
 ";
-    				echo "<div id='line'><button id='name' onclick=\"" . $script . "\">" . $row["user"] . "</button>: <span id='message'>" . $row["message"] . "</span></div>";
+					date_default_timezone_set("America/Chicago");
+    				echo "<div id='line' title='".date("F jS g:i a", substr($row["date"], 0, 10))."'><button id='name' onclick=\"" . $script . "\">" . $row["user"] . "</button>: <span id='message'>" . $row["message"] . "</span></div>";
   				}
 				
 			} else {

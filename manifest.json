@@ -1,0 +1,21 @@
+{
+  "background_color": "#ffffff",
+  "description": "a nice place to stay",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "MediaChat",
+  "orientation": "any",
+  "scope": "https://mediaology.com/mediachat/",
+  "short_name": "MediaChat",
+  "start_url": "https://mediaology.com/mediachat",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": []
+}

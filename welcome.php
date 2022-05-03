@@ -19,6 +19,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 		a{color:white;text-decoration: none;background-color:black;}
     </style>
 	<link rel="stylesheet" href="wel.css">
+	<link rel="manifest" href="manifest.json">
 </head>
 <body>
     <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>
