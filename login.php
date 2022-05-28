@@ -61,11 +61,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             // Store data in session variables
                             $_SESSION["loggedin"] = true;
                             $_SESSION["id"] = $id;
+<<<<<<< HEAD
                             $_SESSION["username"] = $username;
 							$sqlipupdate = "UPDATE users
 	                    					SET ip = '".$_SERVER['REMOTE_ADDR']."'
 											WHERE username = '".$_SESSION['username']."'";
 							$result = mysqli_query($link, $sqlipupdate);
+=======
+                            $_SESSION["username"] = $username;                            
+                            
+>>>>>>> 80ac87f6ddb506215f9a82c25875667c96dffe23
                             // Redirect user to welcome page
                             header("location: welcome.php");
                         } else{

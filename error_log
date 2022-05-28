@@ -2025,6 +2025,7 @@ Stack trace:
 #0 /home1/blufishm/public_html/mediaology/mediachat/getinfo.php(128): mysqli_fetch_array(true)
 #1 {main}
   thrown in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php on line 128
+<<<<<<< HEAD
 [03-May-2022 06:27:47 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediachat/boards.php:12) in /home1/blufishm/public_html/mediachat/boards.php on line 56
 [03-May-2022 10:18:14 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /home1/blufishm/public_html/mediachat/chat.php:13
 Stack trace:
@@ -2451,3 +2452,5 @@ Stack trace:
 [27-May-2022 17:04:59 America/Boise] PHP Parse error:  syntax error, unexpected token "." in /home1/blufishm/public_html/mediaology/mediachat/login.php on line 66
 [27-May-2022 17:05:01 America/Boise] PHP Parse error:  syntax error, unexpected token "." in /home1/blufishm/public_html/mediaology/mediachat/login.php on line 66
 [27-May-2022 17:05:01 America/Boise] PHP Parse error:  syntax error, unexpected token "." in /home1/blufishm/public_html/mediaology/mediachat/login.php on line 66
+=======
+>>>>>>> 80ac87f6ddb506215f9a82c25875667c96dffe23
