@@ -2,7 +2,6 @@
 header('Access-Control-Allow-Origin: *');
 session_start();
 require_once "config.php";
-<<<<<<< HEAD
 
 if (isset($_POST['submit'])){
 	$filter= false; 
@@ -49,34 +48,11 @@ if (isset($_POST['submit'])){
 			if($perc > 80)
 			{
 				$filter = true;
-=======
-if (!function_exists('str_contains')) {
-    function str_contains(string $haystack, string $needle): bool
-    {
-        return '' === $needle || false !== strpos($haystack, $needle);
-    }
-}
-if (isset($_POST['submit'])){
-	$hasbadword= false; 
-	if($_REQUEST['board'] == 'public'){
-		$banned = "SELECT word FROM banned";
-		$result = $link->query($banned);
-		if ($result->num_rows > 0) {
- 			while($row = $result->fetch_assoc()) {
-				if(str_contains(strtolower($_REQUEST['msg']), $row['word']))
-				{
-					$hasbadword = true;
-				}
->>>>>>> 80ac87f6ddb506215f9a82c25875667c96dffe23
 			}
 		}
 	}
 	
-<<<<<<< HEAD
 	if($_REQUEST['msg']!=""&&!$filter)
-=======
-	if($_REQUEST['msg']!=""&&!$hasbadword)
->>>>>>> 80ac87f6ddb506215f9a82c25875667c96dffe23
 	{
 	$sql = "INSERT INTO messages (user, date, message, board) VALUES (?, ?, ?, ?)";
 	if($stmt = mysqli_prepare($link, $sql)){
@@ -103,9 +79,4 @@ if (isset($_POST['submit'])){
 	}
 	
 }
-
-<<<<<<< HEAD
 ?>
-=======
-?>
->>>>>>> 80ac87f6ddb506215f9a82c25875667c96dffe23
