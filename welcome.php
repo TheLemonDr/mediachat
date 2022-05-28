@@ -25,10 +25,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>
 	<a href="reset-password.php" class="btn btn-warning">Change Password</a>
     <a href="logout.php" class="btn btn-danger ml-3">Sign Out</a>
-<<<<<<< HEAD
-=======
-    <a href="https://www.patreon.com/bePatron?u=73389187" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
->>>>>>> 80ac87f6ddb506215f9a82c25875667c96dffe23
 	<button id="chatop" onclick="document.getElementById('popup').style.display = 'block'">Chat Options</button>
 	<button id="infobut" onclick="document.getElementById('infopanel').style.display = 'block'">Info</button>
 	<div id="chat">
@@ -76,10 +72,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 		        <a href="https://mediaology.com/mediachat">mediaology.com/mediachat</a><br>
 		        <a href="https://mediachat.mediaology.com/">mediachat.mediaology.com</a><br>
 		        <a href="https://spacyy.com/">spacyy.com</a><br>
-<<<<<<< HEAD
-				<a href="https://www.patreon.com/bePatron?u=73389187">Become a Patron!</a>
-=======
->>>>>>> 80ac87f6ddb506215f9a82c25875667c96dffe23
+			<a href="https://www.patreon.com/bePatron?u=73389187">Become a Patron!</a>
 		    </div>
 		</div>
 	</div>
