@@ -44,9 +44,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 	</div>
 	<div id="popup" style="position: relative; width: 0; height: 0; display: none;">
 		<div id="settings"><button id="close" onclick="document.getElementById('popup').style.display = 'none'">x</button>
+		<div style="height: 477px;overflow-y: scroll;overflow-x: hidden;">
 		<ul id="chatstoedit">
 			
 		</ul>
+		</div>
 		<iframe name="boards" src="boards.php" style="display: none;"></iframe>
 		<form id="addboards" target="boards" action="boards.php" method="POST">
 			<input id="msg" name="chatname" autocomplete="off" placeholder="Name of group chat">
