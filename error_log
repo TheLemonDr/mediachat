@@ -2454,3 +2454,42 @@ Stack trace:
 [27-May-2022 17:05:01 America/Boise] PHP Parse error:  syntax error, unexpected token "." in /home1/blufishm/public_html/mediaology/mediachat/login.php on line 66
 =======
 >>>>>>> 80ac87f6ddb506215f9a82c25875667c96dffe23
+[28-May-2022 15:27:54 America/Boise] PHP Parse error:  syntax error, unexpected token "<<", expecting end of file in /home1/blufishm/public_html/mediaology/mediachat/chat.php on line 5
+[28-May-2022 15:28:59 America/Boise] PHP Parse error:  syntax error, unexpected token "<<", expecting end of file in /home1/blufishm/public_html/mediaology/mediachat/chat.php on line 5
+[28-May-2022 15:29:32 America/Boise] PHP Parse error:  syntax error, unexpected token "<<", expecting end of file in /home1/blufishm/public_html/mediaology/mediachat/chat.php on line 5
+[28-May-2022 15:32:29 America/Boise] PHP Parse error:  syntax error, unexpected token "<<", expecting end of file in /home1/blufishm/public_html/mediaology/mediachat/chat.php on line 5
+[28-May-2022 15:33:32 America/Boise] PHP Parse error:  syntax error, unexpected token "<<", expecting end of file in /home1/blufishm/public_html/mediaology/mediachat/chat.php on line 5
+[28-May-2022 15:33:40 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php:128
+Stack trace:
+#0 /home1/blufishm/public_html/mediaology/mediachat/getinfo.php(128): mysqli_fetch_array(true)
+#1 {main}
+  thrown in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php on line 128
+[28-May-2022 15:33:41 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php:128
+Stack trace:
+#0 /home1/blufishm/public_html/mediaology/mediachat/getinfo.php(128): mysqli_fetch_array(true)
+#1 {main}
+  thrown in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php on line 128
+[28-May-2022 15:34:57 America/Boise] PHP Parse error:  syntax error, unexpected token "<<", expecting end of file in /home1/blufishm/public_html/mediaology/mediachat/chat.php on line 5
+[28-May-2022 15:39:38 America/Boise] PHP Parse error:  syntax error, unexpected token "<<", expecting end of file in /home1/blufishm/public_html/mediaology/mediachat/chat.php on line 5
+[28-May-2022 15:40:33 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 56
+[28-May-2022 15:40:35 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 56
+[28-May-2022 15:40:39 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 56
+[28-May-2022 15:41:19 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php:128
+Stack trace:
+#0 /home1/blufishm/public_html/mediaology/mediachat/getinfo.php(128): mysqli_fetch_array(true)
+#1 {main}
+  thrown in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php on line 128
+[28-May-2022 15:41:20 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php:128
+Stack trace:
+#0 /home1/blufishm/public_html/mediaology/mediachat/getinfo.php(128): mysqli_fetch_array(true)
+#1 {main}
+  thrown in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php on line 128
+[28-May-2022 15:41:49 America/Boise] PHP Parse error:  syntax error, unexpected token "<<", expecting end of file in /home1/blufishm/public_html/mediaology/mediachat/chat.php on line 5
+[28-May-2022 15:41:55 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 56
+[28-May-2022 15:42:03 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php:128
+Stack trace:
+#0 /home1/blufishm/public_html/mediaology/mediachat/getinfo.php(128): mysqli_fetch_array(true)
+#1 {main}
+  thrown in /home1/blufishm/public_html/mediaology/mediachat/getinfo.php on line 128
+[28-May-2022 15:42:08 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 56
+[28-May-2022 15:42:11 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/blufishm/public_html/mediaology/mediachat/boards.php:12) in /home1/blufishm/public_html/mediaology/mediachat/boards.php on line 56
